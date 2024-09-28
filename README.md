@@ -66,19 +66,20 @@ def search(query, tfidf_matrix, tfidf_vectorizer):
 
 # Example query
 query =input("Enter Query: ")
-
+print("\n")
 # Perform search
 search_results = search(query, tfidf_matrix, tfidf_vectorizer)
 
 # Display search results
-print("Query:", query)
+print("Query: {}\n".format(query))
 for result in search_results:
     print("Document:", result[0])
     print("Similarity Score:", result[1])
     print("----------------------")
 ```
 ### Output:
-![image](https://github.com/user-attachments/assets/f07f1027-19bd-44ed-b8b7-8ba08b181c52)
+![image](https://github.com/user-attachments/assets/8585bd4b-a11a-4cb4-abf3-50ed3b54bd3a)
+
 
 ## Result:
 Thus, the implementation of Information Retrieval Using Vector Space Model in Python is executed successfully.
