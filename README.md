@@ -78,7 +78,8 @@ for result in search_results:
     print("----------------------")
 ```
 ### Output:
-![image](https://github.com/user-attachments/assets/8585bd4b-a11a-4cb4-abf3-50ed3b54bd3a)
+![image](https://github.com/user-attachments/assets/c1b50c45-0059-4636-abce-acfb0c4b20cf)
+
 
 
 ## Result:
